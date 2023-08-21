@@ -10,7 +10,11 @@ for(int i = 1;i<=n;i++) {
 		System.out.print(" ");
 	}
 	for(int j=1;j<=st;j++) {
-		System.out.print("*");
+		//if(j==1||j==st) {
+		System.out.print(j);
+		//}else {
+			//System.out.print(" ");
+	//	}
 	}
 	if(i<=n/2) {
 		st = st +2;
@@ -20,7 +24,8 @@ for(int i = 1;i<=n;i++) {
 		st = st-2;
 		sp++;
 	}
-	System.out.println();
+	System.out.println(
+			);
 
 }
 
