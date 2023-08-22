@@ -1,4 +1,4 @@
-package com.num.java;
+package com.pattern.java;
 
 public class p9 {
 	public static void main(String args) {

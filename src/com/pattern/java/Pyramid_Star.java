@@ -1,4 +1,4 @@
-package com.num.java;
+package com.pattern.java;
 import java.util.Scanner;
 
 public class Pyramid_Star {

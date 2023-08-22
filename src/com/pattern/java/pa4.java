@@ -1,4 +1,4 @@
-package com.num.java;
+package com.pattern.java;
 
 public class pa4 {
 	public static void main(String args[]) {
