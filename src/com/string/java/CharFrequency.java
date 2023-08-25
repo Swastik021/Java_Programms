@@ -1,13 +1,13 @@
 package com.string.java;
 
 public class CharFrequency {
-	public static void charFreq(String str) {
+	public static void charFreq(String s) {
 
 		int count[] = new int[26];
 	
 		
-		for(int i = 0;i<str.length();i++) {
-			char ch = str.charAt(i);
+		for(int i = 0;i<s.length();i++) {
+			char ch = s.charAt(i);
 			if(ch>='A'&& ch<='Z') {
 				count[ch-65]++;
 			}
@@ -23,8 +23,8 @@ public class CharFrequency {
 }
 
 	public static void main(String[] args) {
-		String str = "programming";
-		charFreq(str);
+		String s = "programming";
+		charFreq(s);
 	}
 
 }

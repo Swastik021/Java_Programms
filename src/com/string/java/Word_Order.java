@@ -10,10 +10,7 @@ public class Word_Order {
 			
 			
 		}
-		
-
-	
-	
+			
 	public static void main(String[] args) {
 		String str = "Hello Good Morning";
 		reversWord(str);
