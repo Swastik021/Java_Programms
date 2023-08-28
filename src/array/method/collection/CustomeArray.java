@@ -6,12 +6,12 @@ public class CustomeArray {
 
 		//public class CustomeArray {
 			private int data[];
-			private int nextElement[];
+			private int nextElement;
 			
 			
 			public CustomeArray() {
 				data = new int[0];
-				nextElement =new int[ 0];
+				nextElement = 0;
 				
 			}
 			public String ToString() {
@@ -32,9 +32,27 @@ public class CustomeArray {
 			if(nextElement==data.length) {
 				increamentCapacity();
 			}
-			data[nextElement]
+			data[nextElement]=element;
+			nextElement++;
 			}
+		public void increamentCapacity() {
+			int temp[]= data;
+			data = new int[temp.length*(3/2)+1];
+			for(int i = 0;i<temp.length;i++) {
+				data[i]=temp[i];
+			}
+			
 		
-	}
+		}
+		public int removeLast() {
+			int temp = data[nextElement-1 ];
+			data[nextElement -1]=0;
+			nextElement--;
+			return temp;
+			
+		
+		}
+		
+	
 
 }
