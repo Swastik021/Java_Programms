@@ -11,7 +11,7 @@ for(int i = 1;i<=n;i++) {
 	}
 	for(int j=1;j<=st;j++) {
 		//if(j==1||j==st) {
-		System.out.print(j);
+		System.out.print("*");
 		//}else {
 			//System.out.print(" ");
 	//	}
@@ -24,8 +24,7 @@ for(int i = 1;i<=n;i++) {
 		st = st-2;
 		sp++;
 	}
-	System.out.println(
-			);
+	System.out.println();
 
 }
 
