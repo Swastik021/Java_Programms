@@ -19,6 +19,14 @@ for(int i =0;i<a.length;i++) {
 	}
 	
 	}
+System.out.println(largest+" This number is highest   ");
+
+	largest = a[0];
+	for(int i = 1 ;i<a.length;i++) {
+		if(largest < a[i]) {
+			largest = a[i];
+		}
+	}
 		
 	System.out.println(largest+" This number is highest   ");
 }
